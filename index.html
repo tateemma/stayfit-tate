@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>StayFit Tate</title>
+<meta name="theme-color" content="#F3ECE2"/>
+<link rel="manifest" href="manifest.json"/>
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="StayFit Tate"/>
+<link rel="stylesheet" href="fonts/fonts.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="app"></div>
+
+<nav class="navbar">
+  <button class="navbtn" data-route="home" onclick="location.hash='#/'"><span class="navicon">🏠</span>Today</button>
+  <button class="navbtn" data-route="calendar" onclick="location.hash='#/calendar'"><span class="navicon">📅</span>Calendar</button>
+  <button class="navbtn" data-route="progress" onclick="location.hash='#/progress'"><span class="navicon">📈</span>Progress</button>
+  <button class="navbtn" data-route="programs" onclick="location.hash='#/programs'"><span class="navicon">🏋️</span>Programs</button>
+  <button class="navbtn" data-route="settings" onclick="location.hash='#/settings'"><span class="navicon">⚙️</span>Settings</button>
+</nav>
+
+<script src="js/data.js"></script>
+<script src="js/db.js"></script>
+<script src="js/calories.js"></script>
+<script src="js/drive.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
